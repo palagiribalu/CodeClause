@@ -32,8 +32,6 @@ public class FolderLock {
         }
 
         System.out.println("The folder has been locked.");
-
-        // Add this code
         System.out.println("Do you want to unlock the folder? (Y/N)");
         String unlock = scanner.nextLine();
 
